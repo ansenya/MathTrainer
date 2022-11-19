@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/rat">
+
+    <TextView
+        android:id="@+id/fir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Text1"
+        android:textColor="#2D71C3"
+        android:textSize="30sp"/>
+    <TextView
+        android:id="@+id/sec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Text2"
+        android:textColor="#E80F0F"
+        android:layout_alignParentEnd="true"
+        android:textSize="30sp"/>
+    <TextView
+        android:id="@+id/thr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Text3"
+        android:textColor="#37BAAB"
+        android:layout_alignParentBottom="true"
+        android:textSize="30sp"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="30dp" />
+
+    <TextView
+        android:id="@+id/fif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Text5"
+        android:textColor="#2B54CF"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/frh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Text4"
+        android:textColor="#938213"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:textSize="30sp"/>
+    <TextView
+        android:id="@+id/six"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Text6"
+        android:layout_marginStart="50dp"
+        android:textColor="#DC1A5E"
+        android:layout_alignStart="@+id/fif"
+        android:textSize="30sp"/>
+
+
+</RelativeLayout>
